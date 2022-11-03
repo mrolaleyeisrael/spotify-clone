@@ -66,7 +66,7 @@ const loadPlaylists = () => {
 
 const fillContentForDashboard = () => {
   const coverElement = document.querySelector("#cover-content");
-  coverElement.innerHTML = `<h1 class="text-8xl">Hello ${displayName}</h1>`;
+  coverElement.innerHTML = `<h1 class="text-7xl">Hello ${displayName}</h1>`;
   const pageContent = document.querySelector("#page-content");
   const playlistMap = new Map([["featured", "featured-playlist-items"], ["top playlists", "top-playlist-items"]]);
   let innerHTML = "";
