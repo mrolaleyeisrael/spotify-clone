@@ -270,7 +270,6 @@ const onContentScroll = (event) => {
   }
 }
 
-
 const togglePlay = () => {
   if (audio.src) {
     if (audio.paused) {
